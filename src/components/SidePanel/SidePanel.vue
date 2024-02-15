@@ -29,6 +29,12 @@
           :banner-src="brandBannerSrc"
           :url="homeUrl"
         />
+        <oxd-branding
+          :toggle="toggle"
+          :logo-src="brandLogoSrc"
+          :banner-src="'/images/interacers-logo.png'"
+          :url="homeUrl"
+        />
         <oxd-icon
           name="x"
           class="oxd-sidepanel-header-close"
@@ -41,6 +47,22 @@
           :menu-items="menuItems"
           @collapse="$emit('collapse')"
         />
+      </div>
+
+      <div class="footer-new">
+        <slot name="footer">
+          <div tag="p" class="">INTERAC-ERS 1.0</div>
+          <div tag="p" class="">
+            &copy; 2023 - 2024
+            <div>
+              <a href="https://interacers.com/" target="_blank"
+                >INTERAC Enterprise Resource System..</a
+              >
+            </div>
+
+            All rights reserved.
+          </div>
+        </slot>
       </div>
     </nav>
   </aside>

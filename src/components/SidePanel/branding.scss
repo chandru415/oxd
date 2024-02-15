@@ -22,27 +22,33 @@
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 600;
-  padding: 1.5rem 1rem;
+  // padding: 1.5rem 1rem;
   z-index: 1;
   align-items: center;
+
   &-logo {
     display: none;
     border-style: none;
+
     & img {
       height: $oxd-brand-logo-height;
       width: $oxd-brand-logo-width;
     }
+
     @include oxd-respond-to('md') {
       display: block;
     }
   }
+
   &-banner {
     margin-left: auto;
     margin-right: auto;
+
     & img {
       height: $oxd-brand-banner-height;
       width: $oxd-brand-banner-width;
     }
+
     &.toggled {
       @include oxd-respond-to('md') {
         display: none;

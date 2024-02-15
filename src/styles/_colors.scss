@@ -52,30 +52,24 @@ $oxd-pannel-bg-color: #072b62 !default;
 // OXD - Gradient Colors
 $oxd-primary-gradient-start-color: #ff8226 !default;
 $oxd-primary-gradient-end-color: #f35c17 !default;
-$oxd-primary-gradient: linear-gradient(
-  90deg,
-  $oxd-primary-gradient-start-color 0%,
-  $oxd-primary-gradient-end-color 90%
-) !default;
+$oxd-primary-gradient: linear-gradient(90deg,
+    $oxd-primary-gradient-start-color 0%,
+    $oxd-primary-gradient-end-color 90%) !default;
 
 $oxd-secondary-gradient-start-color: #ff5e00 !default;
 $oxd-secondary-gradient-end-color: #ffa46b !default;
 
-$oxd-isecondary-gradient-start-color: #b92525 !default;
-$oxd-isecondary-gradient-end-color: #d75e5e !default;
+$oxd-isecondary-gradient-start-color: hsl(242deg 33.57% 42.1%) !default;
+$oxd-isecondary-gradient-end-color: hsla(177, 43%, 76%, 1) !default;
 
-$oxd-secondary-gradient: linear-gradient(
-  90deg,
-  $oxd-secondary-gradient-start-color 0%,
-  $oxd-secondary-gradient-end-color 90%
-) !default;
+$oxd-secondary-gradient: linear-gradient(90deg,
+    $oxd-secondary-gradient-start-color 0%,
+    $oxd-secondary-gradient-end-color 90%) !default;
 
-$oxd-isecondary-gradient: linear-gradient(
-  90deg,
-  $oxd-isecondary-gradient-start-color 0%,
-  $oxd-isecondary-gradient-end-color 90%
-) !default;
-
+$oxd-isecondary-gradient: linear-gradient(90deg,
+    $oxd-isecondary-gradient-start-color 0%,
+    $oxd-isecondary-gradient-end-color 90%) !default;
+// 90deg, hsl(242deg 33.57% 42.1%) 0%, hsla(177, 43%, 76%, 1) 78%, hsl(157deg 39.91% 70.83%) 100%
 // OXD Font Color
 $oxd-primary-font-color: $oxd-white-color !default;
 $oxd-secondary-font-color: $oxd-white-color !default;
