@@ -107,6 +107,14 @@
   </ul>
   <div class="oxd-main-menu-divider"></div>
 
+  <!-- CRM -->
+  <div class="oxd-main-menu">
+    <div class="oxd-main-menu-p">
+      <oxd-button label="CRM" :display-type="''" @click="loadCRM" />
+    </div>
+  </div>
+  <div class="oxd-main-menu-divider"></div>
+
   <!-- Inventory Tracking -->
   <div class="oxd-main-menu">
     <div class="oxd-main-menu-p">
@@ -338,6 +346,9 @@ export default defineComponent({
       setTimeout(() => {
         window.dispatchEvent(new Event('resize'));
       }, 350);
+    },
+    loadCRM() {
+      window.location.href = 'https://beta.interacers.com/crm';
     },
   },
 });
