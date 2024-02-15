@@ -218,6 +218,22 @@
     </div>
   </div>
   <!-- Search -->
+  <!-- 
+  <div class="footer-new">
+    <slot name="footer">
+      <div tag="p" class="">INTERAC-ERS 1.0</div>
+      <div tag="p" class="">
+        &copy; 2023 - 2024
+        <div>
+          <a href="https://interacers.com/" target="_blank"
+            >INTERAC Enterprise Resource System..</a
+          >
+        </div>
+
+        All rights reserved.
+      </div>
+    </slot>
+  </div> -->
 </template>
 
 <script lang="ts">

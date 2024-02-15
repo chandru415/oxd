@@ -55,9 +55,9 @@
       <div class="oxd-layout-context">
         <slot></slot>
       </div>
-      <div class="oxd-layout-footer">
+      <!-- <div class="oxd-layout-footer">
         <slot name="footer"></slot>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
